@@ -81,14 +81,7 @@ async function doHelp(tweet, msg) {
     let post = await T.post('statuses/update', {
       status:
         `@${tweet.user.screen_name} ` +
-        `Call commands with: ${config.get('bot.handle')} + \n` +
-        'help - Displays the list of commands and their descriptions.\n' +
-        'balance - Check the balance you have in the bot.\n' +
-        'deposit - Show your deposit address.\n' +
-        'tip <user> <amount> - Send Sirius to others users.\n' +
-        'withdraw <address> <amount> - Withdraw your funds to a private wallet.\n' +
-        'terms - Show terms of service.\n' +
-        'See https://docs.getsirius.io/docs/faq/tipbot-twitter for more information.',
+        'Please read our TipBot FAQ (https://docs.getsirius.io/docs/faq/tipbot-twitter) for more details.',
       in_reply_to_status_id: tweet.id_str
     })
     logger.info(
