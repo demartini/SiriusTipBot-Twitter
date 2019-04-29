@@ -3,7 +3,7 @@ dotenv.config()
 module.exports = {
   bot: {
     handle: process.env.TWITTER_HANDLE,
-    requiredConfirms: process.env.TWITTER_REQUIREDCONFIRMS
+    requiredConfirms: 2
   },
   twitter: {
     consumer_key: process.env.TWITTER_CONSUMER_KEY,
