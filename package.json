@@ -51,7 +51,7 @@
     "bitcoin-core": "^3.0.0",
     "config": "^3.3.3",
     "dotenv": "^8.2.0",
-    "pm2": "^4.5.0",
+    "pm2": "^4.5.1",
     "twit": "^2.2.11",
     "winston": "3",
     "winston-daily-rotate-file": "^4.5.0"
